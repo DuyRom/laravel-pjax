@@ -1,0 +1,1 @@
+$((function(){$(".yajra-datatable").DataTable({processing:!0,serverSide:!0,ajax:"/students/list",columns:[{data:"DT_RowIndex",name:"DT_RowIndex"},{data:"name",name:"name"},{data:"email",name:"email"},{data:"username",name:"username"},{data:"phone",name:"phone"},{data:"dob",name:"dob"},{data:"action",name:"action",orderable:!0,searchable:!0}]})}));
